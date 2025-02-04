@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        
+        <!-- Display -->
+        <div id="display" class="display">0</div>
+
+        <!-- Calculator Buttons -->
+        <div class="button-container">
+            <button class="button" onclick="appendNumber('7')">7</button>
+            <button class="button" onclick="appendNumber('8')">8</button>
+            <button class="button" onclick="appendNumber('9')">9</button>
+            <button class="button" onclick="appendNumber('/')">/</button>
+            
+            <button class="button" onclick="appendNumber('4')">4</button>
+            <button class="button" onclick="appendNumber('5')">5</button>
+            <button class="button" onclick="appendNumber('6')">6</button>
+            <button class="button" onclick="appendNumber('*')">*</button>
+            
+            <button class="button" onclick="appendNumber('1')">1</button>
+            <button class="button" onclick="appendNumber('2')">2</button>
+            <button class="button" onclick="appendNumber('3')">3</button>
+            <button class="button" onclick="appendNumber('-')">-</button>
+            
+            <button class="button" onclick="appendNumber('0')">0</button>
+            <button class="button" onclick="appendNumber('.')">.</button>
+            <button class="button" onclick="calculateResult()">=</button>
+            <button class="button" onclick="appendNumber('+')">+</button>
+
+            <!-- Scientific Operations -->
+            <button class="button" onclick="appendNumber('sqrt(')">√</button>
+            <button class="button" onclick="appendNumber('^')">^</button>
+            <button class="button" onclick="appendNumber('Math.sin(')">sin</button>
+            <button class="button" onclick="appendNumber('Math.cos(')">cos</button>
+            <button class="button" onclick="appendNumber('Math.tan(')">tan</button>
+        </div>
+
+        <!-- Clear Button -->
+        <button class="clear-btn" onclick="clearDisplay()">C</button>
+        
+        <!-- History -->
+        <div class="history">
+            <h3>History</h3>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
