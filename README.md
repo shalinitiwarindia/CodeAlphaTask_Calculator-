@@ -71,6 +71,12 @@ Here’s an example of how it works:
 
 ![image](https://github.com/user-attachments/assets/dfa2f757-8846-43be-b19a-3ee7ad336af9)
 
+
+
+https://github.com/user-attachments/assets/983282da-0ad7-430a-a7c4-2538cf2d35f9
+
+
+
 ## Contributing
 
 If you'd like to contribute to the development of this calculator app, feel free to fork the repository and make a pull request. Any improvements or feature requests are welcome!
